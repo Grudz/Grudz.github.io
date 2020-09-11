@@ -4,6 +4,8 @@ layout: default
 
 # About Me
 
+test
+
 I'm a software developer with several years of C++ expierence in the automotive industry and a passion for all things autonomous. As an undergraduate student at Oakland University and President of the Smart Vehicle Club, I've led our team to improve all aspects of our autonomous vehicle platform which competes in the IGVC Self Drive competition. From electrical engineering to machine vision, I've made personal contributions to every component of the vehicle. When I'm not working on our AV platform, I'm usually knee deep in teaching myself machine learning or attending hackathons. 
 
 **The Guts**: links to a file that is key to the functionality of the project.
