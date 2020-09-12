@@ -4,7 +4,7 @@ layout: default
 
 # About Me
 
-## **|| ROS || Embedded Software || Machine Learning || Electronic Prototyping ||**
+### **|| ROS || Embedded Software || Machine Learning || Electronic Prototyping ||**
 
 I am pur
 
