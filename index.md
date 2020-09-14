@@ -22,11 +22,11 @@ This webpage has 4 sections:
 
 ### Autonomous Vehicle Systems
 
-IGVC Course Challenge
+This is called the "IGVC Course Challenge". My teamate and I Implemented the ROS Nav-Stack in C++ with SLAM and Dijkstra’s algorithm to navigate a robot autonomously through a course. In this case, the global costmap for the lanes is pre-generated and the local costmap generates in real-time to avoid course obstacles. Navigation goals were set in C++ which gave the robot a goal location.
 
 ![](igvc_course.gif)
 
-GPS waypoint project
+Take a look at the "GPS waypoint Project". I programmed an algorithm in C++ to drive a car through 8 GPS waypoints in under 45 seconds. The algorithm utilizes the GPS coordinates of the waypoint, a reference GPS coordinate, and the heading of angle of the Audi R8 relative to the next waypoint for localization and navigation.
 
 ![](audi_bot_gps_sim.gif)
 
@@ -36,15 +36,15 @@ GPS waypoint project
 
 ### Autonomous Vehicle Club
 
-Point Cloud data
+We had an event where high school students and their parents came to hear about our club. For this, we had point cloud information from the cars LiDAR on display in real-time.
 
 ![](point_cloud.gif)
 
-Voltage divider for accel signal
+This is a picutre of a teammate and I testing a voltage divider on an acceleration signal coming from the motor using an oscilloscope.
 
 ![](scope_vdivider.jpg)
 
-Relay board soldering
+I hand soldered DV9 cables and our cars relay board based on a schematic we generated. This was crucial to get our drive by wire system completed.
 
 ![](relay_board.jpg)
 
@@ -99,11 +99,11 @@ course 1
 
 ### Embedded Software
 
-breadboard test
+Based on YouTube tutorials done by Ben Eater, I built a 6502 based computer. There were two tutorials, one for a custom clock module using 555 timers, and another for the 6502 computer. I combined those both to on to one breadboard.
 
 ![](6502_breadboard.jpg)
 
-gif
+Another part of Ben Eater's tutorial was assembly programing. He taught me how to program the 6502 microcontroller and display text to a LCD display. I expaneded on his tutorial, in which he only worked on a breadboard, and converted it to a PCB.
 
 ![](6502_vid.gif)
 
