@@ -12,8 +12,10 @@ This webpage has 4 sections:
 
 **Autonomous Vehicle Systems, Autonomous Vehicle Club, Machine Learning, Embedded Software**
 
-##### Contact Infomation:
+##### Social Media and Contact:
 **LinkedIn:** <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
+
+**GitHub:** <a href="https://github.com/Grudz">github.com/Grudz</a>
 
 **Email:**
  bgrudzien@oakland.edu
@@ -28,7 +30,7 @@ This is called the "IGVC Course Challenge". My teamate and I Implemented the ROS
 
 Take a look at the "GPS waypoint Project". I programmed an algorithm in C++ to drive a car through 8 GPS waypoints in under 45 seconds. The algorithm utilizes the GPS coordinates of the waypoint, a reference GPS coordinate, and the heading of angle of the Audi R8 relative to the next waypoint for localization and navigation.
 
-![](audi_bot_gps_sim.gif)
+![](audi_bot_gps_sim_2.gif)
 
 
 
@@ -99,11 +101,11 @@ course 1
 
 ### Embedded Software
 
-Based on YouTube tutorials done by Ben Eater, I built a 6502 based computer. There were two tutorials, one for a custom clock module using 555 timers, and another for the 6502 computer. I combined those both to on to one breadboard.
+Based on YouTube tutorials done by Ben Eater, I built a 6502 based computer. There were two tutorials, one for a custom clock module using 555 timers, and another for the 6502 computer. I combined those both on to one breadboard.
 
 ![](6502_breadboard.jpg)
 
-Another part of Ben Eater's tutorial was assembly programing. He taught me how to program the 6502 microcontroller and display text to a LCD display. I expaneded on his tutorial, in which he only worked on a breadboard, and converted it to a PCB.
+Another part of Ben Eater's tutorial was assembly programing. He taught me how to program the 6502 microcontroller and display text to a LCD display. I expaneded on his tutorial, in which he only worked on a breadboard, and converted it to a PCB. (Plus it was way easier to program the ROM this way, because I didn't have to worry about accidently pulling any wires out on the breadboard)
 
 ![](6502_vid.gif)
 
