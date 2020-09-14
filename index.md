@@ -25,7 +25,7 @@ This webpage has 4 sections:
 IGVC Course Challenge
 
 ![](igvc_course.gif)
-</p>
+
 GPS waypoint project
 
 ![](audi_bot_gps_sim.gif)
