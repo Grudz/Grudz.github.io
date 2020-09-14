@@ -26,6 +26,10 @@ IGVC Course Challenge
 <p align="center">
   <img src="./assets/images/igvc_course.gif">
 </p>
+<p align="center">
+  <img src="./images/igvc_course.gif">
+</p>
+
 
 
 ---
