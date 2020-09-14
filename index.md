@@ -8,13 +8,12 @@ I am pursuing a career in the Autonomous Vehicle or Robotics field. I palyed 3 y
 
 This webpage as 4 sections:
 
- **Autonomous Vehicle Systems ~ Autonomous Vehicle Club ~ Machine Learning ~ 6502 Computer**
+ **Autonomous Vehicle Systems || Autonomous Vehicle Club || Machine Learning || 6502 Computer**
 
-##### Contact
-
+##### Contact Infomation
 <br>
  <a href="https://www.linkedin.com/in/bengrudzien/">LinkedIn LINK</a>
-</br>
+<br>
 
  **Email:**
  bgrudzien@oakland.edu
@@ -34,6 +33,9 @@ This webpage as 4 sections:
 ---
 
 ### Machine Learning
+
+I think sign language one
+
 ~~~python
 model = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(64, (3,3), activation='relu', input_shape=(28, 28, 1)), # first convolution
@@ -47,6 +49,8 @@ model = tf.keras.models.Sequential([
 ])
 ~~~
 
+course 4 maybe 
+
 ~~~python
 lr_schedule = tf.keras.callbacks.LearningRateScheduler(
     lambda epoch: 1e-8 * 10**(epoch / 20))
@@ -55,6 +59,8 @@ lr_schedule = tf.keras.callbacks.LearningRateScheduler(
 ~~~python
 history = model.fit(train_set, epochs=100, callbacks=[lr_schedule])
 ~~~
+
+course 1
 
 ~~~python
     class myCallback(tf.keras.callbacks.Callback):
@@ -65,10 +71,11 @@ history = model.fit(train_set, epochs=100, callbacks=[lr_schedule])
 
     callbacks = myCallback()
 ~~~
+
 ~~~python
     history = model.fit(x_train, y_train, epochs=10, 
                         callbacks=[callbacks])
-    ~~~
+~~~
 
 ---
 
