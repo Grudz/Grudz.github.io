@@ -26,12 +26,9 @@ IGVC Course Challenge
 
 ![](igvc_course.gif)
 
-<p align="center">
-  <img src="./assets/images/igvc_course.gif">
-</p>
-<p align="center">
-  <img src="./images/igvc_course.gif">
-</p>
+GPS waypoint project
+
+![](audi_bot_gps_sim.gif)
 
 
 
@@ -39,7 +36,7 @@ IGVC Course Challenge
 
 ### Autonomous Vehicle Club
 
-![image](/assets/images/igvc_course.gif)
+
 
 ---
 
