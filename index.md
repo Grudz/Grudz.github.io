@@ -32,7 +32,7 @@ IGVC Course Challenge
 
 ### Autonomous Vehicle Club
 
-
+![image](/assets/images/igvc_course.gif)
 
 ---
 
