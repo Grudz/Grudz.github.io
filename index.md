@@ -4,7 +4,7 @@ layout: default
 
 # About Me
 
-I am Vice President of Oakland University's Autonomous Vehicle Club. I played 3 years of hockey at Oakland university and I have one and a half years of professional automotive engineering experience. Learning about the Robot Operating System (ROS) and applying it to autonomous vehicles and robots is fascinating. In my free time, I like to learn about artificial intelligence, work on personal engineering endeavors, and play hockey.
+My fondest experiences at Oakland University are the people I met and got to work with. I got to enjoy playing my favorite sport, hockey, with a great group of guys. My freshman year especially, I was out of my comfort zone playing with teammates two to four years older than me. That was a fantastic learning experience on communication and teamwork, and not to mention really fun. I also found comradery joining the Autonomous Vehicle Club. That club has a fantastic amount of diversity of thought, and it is a pleasure picking everyones brains. Another amazing thing about the club is the immense knowledge of my teammates. They are incredibly smart and an absolute pleasure to work with and learn from. In my free time, I find myself tinkering around with ROS, studying artificial intelligence, working on personal engineering projects, and playing hockey.
 
 ---
 
@@ -36,7 +36,17 @@ GPS waypoint project
 
 ### Autonomous Vehicle Club
 
+Point Cloud data
 
+![](point_cloud.gif)
+
+Voltage divider for accel signal
+
+![](scope_vdivider.jpg)
+
+Relay board soldering
+
+![](relay_board.jpg)
 
 ---
 
