@@ -10,3 +10,13 @@
 header {
   display: none;
 }
+
+img[src$="igvc_course.gif"] {
+  display:block;
+  margin: 0 auto;
+}
+
+img[src$="audi_bot_gps_sim"] {
+  display:block;
+  margin: 0 auto;
+}
