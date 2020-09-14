@@ -22,6 +22,10 @@ This webpage has 4 sections:
 
 ### Autonomous Vehicle Systems
 
+IGVC Course Challenge
+<p align="center">
+  <img src="/assets/images/igvc_course.gif">
+</p>
 
 
 ---
