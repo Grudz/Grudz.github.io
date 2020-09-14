@@ -24,7 +24,7 @@ This webpage has 4 sections:
 
 IGVC Course Challenge
 <p align="center">
-  <img src="/assets/images/igvc_course.gif">
+  <img src="./assets/images/igvc_course.gif">
 </p>
 
 
