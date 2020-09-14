@@ -7,6 +7,7 @@ layout: default
 I am Vice President of Oakland University's Autonomous Vehicle Club. I played 3 years of hockey at Oakland university and I have one and a half years of professional automotive engineering experience. Learning about the Robot Operating System (ROS) and applying it to autonomous vehicles and robots is fascinating. In my free time, I like to learn about machine learning, work on personal engineering endeavors, and play hockey.
 
 This webpage as 4 sections:
+
  **Autonomous Vehicle Systems -- Autonomous Vehicle Club -- Machine Learning -- 6502 Computer**
 
 ##### Contact Infomation:
