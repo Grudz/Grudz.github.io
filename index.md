@@ -12,9 +12,7 @@ This webpage as 4 sections:
 
 ##### Contact Infomation
 **LinkedIn:**
-<br>
- <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien/</a>
-<br>
+<a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien/</a>
 
  **Email:**
  bgrudzien@oakland.edu
