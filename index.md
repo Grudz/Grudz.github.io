@@ -89,7 +89,7 @@ course 1
 
 ### Embedded Software
 
-breadboard
+breadboard test
 
 ![](6502_breadboard.jpg)
 
