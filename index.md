@@ -10,11 +10,10 @@ This webpage as 4 sections:
 
  **Autonomous Vehicle Systems -- Autonomous Vehicle Club -- Machine Learning -- 6502 Computer**
 
-##### Contact Infomation
+##### Contact Infomation:
 **LinkedIn:**
 <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien/</a>
-
- **Email:**
+**Email:**
  bgrudzien@oakland.edu
  
 ---
