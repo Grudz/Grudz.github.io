@@ -8,9 +8,9 @@ My fondest memories of my time at Oakland University revolve around the people I
 
 ---
 
-This webpage has 4 sections:
+This webpage has 5 sections:
 
-**Autonomous Vehicle Systems, Autonomous Vehicle Club, Embedded Software, Machine Learning**
+**In Progress, Autonomous Vehicle Systems, Autonomous Vehicle Club, Embedded Software, Machine Learning**
 
 ##### Social Media and Contact:
 **LinkedIn:** <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
@@ -20,6 +20,16 @@ This webpage has 4 sections:
 **Email:**
  bgrudzien@oakland.edu
  
+ ---
+
+### In Progress
+
+I am in my last semester of college. I have significant projects and class work that are still in progress:
+
+* **Microprocessors Class:** I taught myself some Assembly code already. Still this course covers assembly and embedded C.
+* **Human Robot Interaction:** This course broadly covers: robot autonomy, artificial intelligence, interaction/experimental design, and human factors
+* **ROS Projects:** Currently implementing sensor fusion and the driving agent in ROS for the autonomous car. I am also working through course work covering ROS in a "real world application" using Dataspeed's ROS environment.
+
 ---
 
 ### Autonomous Vehicle Systems
@@ -32,8 +42,6 @@ This is called the "IGVC Course Challenge". My teamate and I Implemented the ROS
 Take a look at the "GPS waypoint Project". I programmed an algorithm in C++ to drive a car through 8 GPS waypoints in under 45 seconds. The algorithm utilizes the GPS coordinates of the waypoint, a reference GPS coordinate, and the heading of angle of the Audi R8 relative to the next waypoint for localization and navigation.
 
 ![](audi_bot_gps_sim_2.gif)
-
-
 
 ---
 
