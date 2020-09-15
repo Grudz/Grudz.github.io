@@ -39,6 +39,8 @@ Take a look at the "GPS waypoint Project". I programmed an algorithm in C++ to d
 
 ### Autonomous Vehicle Club
 
+Currently, and with the support of the team plus any new members we can acquire, I am in the process of implementing sensor fusion and the driving agent in ROS for the autonomous car.
+
 We had an event where high school students and their parents came to hear about our club. For this, we had point cloud information from the cars LiDAR on display in real-time.
 
 ![](point_cloud.gif)
