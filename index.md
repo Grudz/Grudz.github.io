@@ -65,7 +65,7 @@ Based on YouTube tutorials done by Ben Eater, I built a 6502 based computer. The
 
 Another part of Ben Eater's tutorial was assembly programing. He taught me how to program the 6502 microcontroller and display text to a LCD display. I expaneded on his tutorial, in which he only worked on a breadboard, and converted it to a PCB. (Plus it was way easier to program the ROM this way, because I didn't have to worry about accidently pulling any wires out on the breadboard)
 
-![](6502_vid.gif)
+![](6502_vid_2.gif)
 
 ---
 
