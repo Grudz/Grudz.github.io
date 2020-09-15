@@ -51,7 +51,7 @@ This is a picutre of a teammate and I testing a voltage divider on an accelerati
 ![](scope_vdivider.jpg)
 
 
-I hand soldered DV9 cables and our cars relay board based on a schematic we generated. This was crucial to get our drive by wire system completed.
+I hand soldered DB9 cables and our cars relay board based on a schematic we generated. This was crucial to get our drive by wire system completed.
 
 ![](relay_board.jpg)
 
