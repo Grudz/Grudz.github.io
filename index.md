@@ -10,7 +10,7 @@ My fondest experiences at Oakland University are the people I met and got to wor
 
 This webpage has 4 sections:
 
-**Autonomous Vehicle Systems, Autonomous Vehicle Club, Machine Learning, Embedded Software**
+**Autonomous Vehicle Systems, Autonomous Vehicle Club, Embedded Software, Machine Learning**
 
 ##### Social Media and Contact:
 **LinkedIn:** <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
@@ -28,6 +28,7 @@ This is called the "IGVC Course Challenge". My teamate and I Implemented the ROS
 
 ![](igvc_course.gif)
 
+
 Take a look at the "GPS waypoint Project". I programmed an algorithm in C++ to drive a car through 8 GPS waypoints in under 45 seconds. The algorithm utilizes the GPS coordinates of the waypoint, a reference GPS coordinate, and the heading of angle of the Audi R8 relative to the next waypoint for localization and navigation.
 
 ![](audi_bot_gps_sim_2.gif)
@@ -42,9 +43,11 @@ We had an event where high school students and their parents came to hear about 
 
 ![](point_cloud.gif)
 
+
 This is a picutre of a teammate and I testing a voltage divider on an acceleration signal coming from the motor using an oscilloscope.
 
 ![](scope_vdivider.jpg)
+
 
 I hand soldered DV9 cables and our cars relay board based on a schematic we generated. This was crucial to get our drive by wire system completed.
 
@@ -52,9 +55,22 @@ I hand soldered DV9 cables and our cars relay board based on a schematic we gene
 
 ---
 
+### Embedded Software
+
+Based on YouTube tutorials done by Ben Eater, I built a 6502 based computer. There were two tutorials, one for a custom clock module using 555 timers, and another for the 6502 computer. I combined those both on to one breadboard.
+
+![](6502_breadboard.jpg)
+
+Another part of Ben Eater's tutorial was assembly programing. He taught me how to program the 6502 microcontroller and display text to a LCD display. I expaneded on his tutorial, in which he only worked on a breadboard, and converted it to a PCB. (Plus it was way easier to program the ROM this way, because I didn't have to worry about accidently pulling any wires out on the breadboard)
+
+![](6502_vid.gif)
+
+---
+
 ### Machine Learning
 
 This summer I completed four TensorFlow courses on coursea and earned the Deeplearning.AI TensorFlow Developer Specialization. The courses I completed were "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning", "Convolutional Neural Networks in TensorFlow", "Natural Language Processing in TensorFlow", and "Sequences, Time Series and Prediction".
+
 
 This is a multilass deep neural network I made to recoginze sign lanugae images for each letter of the alphabet. This is a sequential neural network (NN) meaning the layers appear in the order that are declared. This NN has two convolutional layers. The first convolution has 64 image filters and an input shape of 28x28 images in grayscale. The pooling layer basically simplifies the convolution layers output and keeps the most impactful pixels. The activation function 'relu' stands for rectified linear unit, all this really does is ignore negative values that appear. Convolutions are in a matrix like data structure, so the flatten layer converts that into a vector. The dropout layer lets the NN ignore neurons if it thinks that are too bias. Finally, the 'softmax' activation function is used at the output layer because this is multiclass NN. If the output desired was a yes or no answer, I would have used a 'signmoid' activation function.
 
@@ -71,6 +87,7 @@ model = tf.keras.models.Sequential([
 ])
 ~~~
 
+
 This is an interesting use of callbacks. This function changes the learning rate per every epoch. Then after the model is trained at a bunch of different learning rates, you can graph the epochs vs learning rate and discover the optimal learning rate for your model's optimizer.
 
 ~~~python
@@ -81,6 +98,7 @@ lr_schedule = tf.keras.callbacks.LearningRateScheduler(
 ~~~python
 history = model.fit(train_set, epochs=100, callbacks=[lr_schedule])
 ~~~
+
 
 This is an example of another helpful callback. This code will stop training your model once a desired accuracy has been obtained. For example, even if the model is at epoch 10 out of 30, if the desired accuracy as been reached, the model won't be trained anymore.
 
@@ -98,18 +116,6 @@ This is an example of another helpful callback. This code will stop training you
     history = model.fit(x_train, y_train, epochs=10, 
                         callbacks=[callbacks])
 ~~~
-
----
-
-### Embedded Software
-
-Based on YouTube tutorials done by Ben Eater, I built a 6502 based computer. There were two tutorials, one for a custom clock module using 555 timers, and another for the 6502 computer. I combined those both on to one breadboard.
-
-![](6502_breadboard.jpg)
-
-Another part of Ben Eater's tutorial was assembly programing. He taught me how to program the 6502 microcontroller and display text to a LCD display. I expaneded on his tutorial, in which he only worked on a breadboard, and converted it to a PCB. (Plus it was way easier to program the ROM this way, because I didn't have to worry about accidently pulling any wires out on the breadboard)
-
-![](6502_vid.gif)
 
 ---
 
