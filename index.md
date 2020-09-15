@@ -69,13 +69,13 @@ Another part of Ben Eater's tutorial was assembly programing. He taught me how t
 
 ### Machine Learning
 
-This summer I completed four TensorFlow courses on coursea and earned the Deeplearning.AI TensorFlow Developer Specialization. The courses I completed were "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning", "Convolutional Neural Networks in TensorFlow", "Natural Language Processing in TensorFlow", and "Sequences, Time Series and Prediction". 
+This summer I completed four TensorFlow courses on Coursea and earned the Deeplearning.AI TensorFlow Developer Specialization. The courses I completed were "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning", "Convolutional Neural Networks in TensorFlow", "Natural Language Processing in TensorFlow", and "Sequences, Time Series and Prediction". 
 
 ![](tf_cert.png)
 <a href="https://coursera.org/share/6afb226e61e1776eb9c04fb6f5fe602b">Certificate Validation Link</a>
 
 
-This is a multilass deep neural network I made to recoginze sign lanugae images for each letter of the alphabet. This is a sequential neural network (NN) meaning the layers appear in the order that are declared. This NN has two convolutional layers. The first convolution has 64 image filters and an input shape of 28x28 images in grayscale. The pooling layer basically simplifies the convolution layers output and keeps the most impactful pixels. The activation function 'relu' stands for rectified linear unit, all this really does is ignore negative values that appear. Convolutions are in a matrix like data structure, so the flatten layer converts that into a vector. The dropout layer lets the NN ignore neurons if it thinks that are too bias. Finally, the 'softmax' activation function is used at the output layer because this is multiclass NN. If the output desired was a yes or no answer, I would have used a 'signmoid' activation function.
+This is a multilass deep neural network I made to recoginze sign lanugae images for each letter of the alphabet. This is a sequential neural network (NN) meaning the layers appear in the order that they are declared. This NN has two convolutional layers. The first convolution has 64 image filters and an input shape of 28x28 pixels in grayscale. The pooling layer basically simplifies the convolution layer's output and keeps the most impactful pixels. The activation function 'relu' stands for rectified linear unit, all this really does is ignore negative values that appear. Convolutions are in a matrix like data structure, so the flatten layer converts that into a vector to feed into the dense layers neurons. The dropout layer lets the NN ignore neurons if it thinks that they are too bias. Finally, the 'softmax' activation function is used at the output layer because this is multiclass NN. If the output desired was a yes or no answer, I would have used a 'sigmoid' activation function.
 
 ~~~python
 model = tf.keras.models.Sequential([
@@ -91,7 +91,7 @@ model = tf.keras.models.Sequential([
 ~~~
 
 
-This is an interesting use of callbacks. This function changes the learning rate per every epoch. Then after the model is trained at a bunch of different learning rates, you can graph the epochs vs learning rate and discover the optimal learning rate for your model's optimizer.
+This is an interesting use of callbacks. This function changes the learning rate per every epoch. Then after the model is trained at a bunch of different learning rates, I graphed the epochs vs the learning rate and discovered the optimal learning rate for my model's optimizer.
 
 ~~~python
 lr_schedule = tf.keras.callbacks.LearningRateScheduler(
@@ -103,7 +103,7 @@ history = model.fit(train_set, epochs=100, callbacks=[lr_schedule])
 ~~~
 
 
-This is an example of another helpful callback. This code will stop training your model once a desired accuracy has been obtained. For example, even if the model is at epoch 10 out of 30, if the desired accuracy as been reached, the model won't be trained anymore.
+This is an example of another helpful callback. This code stoped training my model once the desired accuracy was reached. For example, even if the model is at epoch 10 out of 30, if the desired accuracy has been reached, the model will stop getting trained.
 
 ~~~python
     class myCallback(tf.keras.callbacks.Callback):
