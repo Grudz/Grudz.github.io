@@ -69,7 +69,10 @@ Another part of Ben Eater's tutorial was assembly programing. He taught me how t
 
 ### Machine Learning
 
-This summer I completed four TensorFlow courses on coursea and earned the Deeplearning.AI TensorFlow Developer Specialization. The courses I completed were "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning", "Convolutional Neural Networks in TensorFlow", "Natural Language Processing in TensorFlow", and "Sequences, Time Series and Prediction".
+This summer I completed four TensorFlow courses on coursea and earned the Deeplearning.AI TensorFlow Developer Specialization. The courses I completed were "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning", "Convolutional Neural Networks in TensorFlow", "Natural Language Processing in TensorFlow", and "Sequences, Time Series and Prediction". 
+
+![](tf_cert.png)
+<a href="https://coursera.org/share/6afb226e61e1776eb9c04fb6f5fe602b">Certificate Validation Link</a>
 
 
 This is a multilass deep neural network I made to recoginze sign lanugae images for each letter of the alphabet. This is a sequential neural network (NN) meaning the layers appear in the order that are declared. This NN has two convolutional layers. The first convolution has 64 image filters and an input shape of 28x28 images in grayscale. The pooling layer basically simplifies the convolution layers output and keeps the most impactful pixels. The activation function 'relu' stands for rectified linear unit, all this really does is ignore negative values that appear. Convolutions are in a matrix like data structure, so the flatten layer converts that into a vector. The dropout layer lets the NN ignore neurons if it thinks that are too bias. Finally, the 'softmax' activation function is used at the output layer because this is multiclass NN. If the output desired was a yes or no answer, I would have used a 'signmoid' activation function.
