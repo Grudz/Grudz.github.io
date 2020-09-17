@@ -26,8 +26,8 @@ This webpage has 5 sections:
 
 I am in my last semester of college. I have significant projects and class work that are still in progress:
 
-* **Microprocessors Class:** This course covers assembly and embedded C programming. (I taught myself some assembly code already.)
-* **Human Robot Interaction:** This course broadly covers robot autonomy, artificial intelligence, interaction/experimental design, and human factors
+* **Microprocessors Class:** This course covers assembly and embedded C programming. (I taught myself some assembly code already).
+* **Human Robot Interaction:** This course broadly covers robot autonomy, artificial intelligence, interaction/experimental design, and human factors.
 * **Autonomous Vehicle Club/ROS Projects:** Currently working through course work covering ROS in a "real world application" using Dataspeed's ROS environment. The GIF below shows the current progress of the ROS simulation for the Autonomous Vehicle Club. We have LiDAR data and Camera data from our car. We also have object detection from YOLO set up, although the weights of the machine learning model need to be adjusted. Therefore currently, and with the support of the team plus any new members we can acquire, I am in the process of implementing sensor fusion and the driving agent in ROS for the autonomous car.
 
 ![](gem_sim.gif)
