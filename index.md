@@ -41,7 +41,7 @@ This is called the "IGVC Course Challenge". My teamate and I Implemented the ROS
 ![](igvc_course.gif)
 
 
-Take a look at the "GPS waypoint Project". I programmed an algorithm in C++ to drive a car through 8 GPS waypoints in under 45 seconds. The algorithm utilizes the GPS coordinates of the waypoint, a reference GPS coordinate, and the heading of angle of the Audi R8 relative to the next waypoint for localization and navigation.
+Take a look at the "GPS waypoint Project". This project demonstrates an autonomous vehicle localization algorithm. This algorithm utilizes the latitude and longitude of 8 GPS waypoints. I converted those locations to UTM coordinates. Then, I localized the autonomous Audi R8 based on a reference UTM coordinate, the location of the waypoint, and the location of the car. With these locations I was able to create vectors and find the angle of the car relative to the next waypoint using the dot product formula between the vectors. 
 
 ![](audi_bot_gps_sim_2.gif)
 
