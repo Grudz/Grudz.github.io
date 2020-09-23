@@ -36,7 +36,7 @@ I am in my last semester of college. I have significant projects and class work 
 
 ### Autonomous Vehicle Systems
 
-This is called the "IGVC Course Challenge". My teamate and I Implemented the ROS Nav-Stack in C++ with SLAM and Dijkstra’s algorithm to navigate a robot autonomously through a course. In this case, the global costmap for the lanes is pre-generated and the local costmap generates in real-time to avoid course obstacles. Navigation goals were set in C++ which gave the robot a goal location.
+This is called the "IGVC Course Challenge". My teamate and I Implemented the ROS Nav-Stack in C++ with Dijkstra’s algorithm to navigate a robot autonomously through a course. In this case, the global costmap for the lanes is pre-generated and the local costmap generates in real-time to avoid course obstacles. Navigation goals were set in C++ which gave the robot a goal location.
 
 ![](igvc_course.gif)
 
