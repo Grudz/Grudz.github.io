@@ -8,7 +8,7 @@ My fondest memories of my time at Oakland University revolve around the people I
 
 ---
 
-### Webpage Sections
+### Webpage Sections:
 
 ROS Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
 
