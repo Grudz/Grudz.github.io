@@ -31,7 +31,7 @@ This project is called "LiDAR n' Xbox". Why is it named that? This project demon
 
 
 **"What the Car Sees"** - Rviz
-![](rviz2.png)
+![](rviz3.png)
 
 This next project is called the "IGVC Course Challenge". My teamate and I Implemented the ROS Nav-Stack in C++ with Dijkstra’s algorithm to navigate a robot autonomously through a course. In this case, the global costmap for the lanes is pre-generated and the local costmap generates in real-time to avoid course obstacles. Navigation goals were set in C++ which gave the robot a goal location.
 
