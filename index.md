@@ -27,7 +27,7 @@ My fondest memories of my time at Oakland University revolve around the people I
 This project is called "LiDAR n' Xbox". Why is it named that? This project demonstrates lidar processing using the PCL library and generating bounding boxes based on that data. Also, I created a fun world in Gazebo and can drive my golf cart around that world with my Xbox controller testing my perception algorithm.
 
 **"What People See"** - Gazebo
-![](gazebo2.png)
+![](gazebo_bbox.png)
 
 
 **"What the Car Sees"** - Rviz
