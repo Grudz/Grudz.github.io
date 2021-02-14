@@ -8,16 +8,16 @@ My fondest memories of my time at Oakland University revolve around the people I
 
 ---
 
-### Website Overview
+### Webpage Sections
 
-**ROS Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning**
+ROS Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
 
-##### Social Media and Contact:
-**LinkedIn:** <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
+### Social Media and Contact:
+LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
 
-**GitHub:** <a href="https://github.com/Grudz">github.com/Grudz</a>
+GitHub: <a href="https://github.com/Grudz">github.com/Grudz</a>
 
-**Email:**
+Email:
  bgrudzien@oakland.edu
  
 ---
