@@ -4,13 +4,13 @@ layout: default
 
 # About Me
 
-My fondest memories of my time at Oakland University revolve around the people I met through classes, hockey, internships, and the Autonomous Vehicle Club. I developed relationships with professors beyond class topics that provided me great insight into potential careers. I stepped out of my comfort zone being the youngest by two to four years on OU’s hockey team. I was fortunate to have a physical outlet playing a sport I love while gaining friendships and confidence, all while improving my communication and teamwork skills. I found camaraderie being a member of the Autonomous Vehicle Club. I was able to collaborate with very intelligent and diverse teammates. I took a leadership role as Vice President after being a member for one year. In my free time, I continue to play hockey, study artificial intelligence, tinker with ROS, and work on personal engineering projects.
+My fondest memories of my time at Oakland University revolve around the people I met through classes, hockey, internships, and the Autonomous Vehicle Club. I developed relationships with professors beyond class topics that provided me great insight into potential careers. I stepped out of my comfort zone being the youngest by two to four years on OU’s hockey team. I was fortunate to have a physical outlet playing a sport I love while gaining friendships and confidence, all while improving my communication and teamwork skills. I found camaraderie being a member of the Autonomous Vehicle Club. I was able to collaborate with very intelligent and diverse teammates. I took a leadership role as Vice President after being a member for one year. In my free time, I continue to play hockey and tinker with ROS or other personal engineering projects.
 
 ---
 
-This webpage has 5 sections:
+### Overview
 
-**In Progress, Autonomous Vehicle Systems, Autonomous Vehicle Club, Embedded Software, Machine Learning**
+**ROS Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning**
 
 ##### Social Media and Contact:
 **LinkedIn:** <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
@@ -20,26 +20,21 @@ This webpage has 5 sections:
 **Email:**
  bgrudzien@oakland.edu
  
- ---
-
-### In Progress
-
-I am in my last semester of college. I have significant projects and class work that are still in progress:
-
-* **Microprocessors Class:** This course covers assembly and embedded C programming. (I taught myself some assembly code already).
-* **Human Robot Interaction:** This course broadly covers robot autonomy, artificial intelligence, interaction/experimental design, and human factors.
-* **Autonomous Vehicle Club/ROS Projects:** Currently working through course work covering ROS in a "real world application" using Dataspeed's ROS environment. The GIF below shows the current progress of the ROS simulation for the Autonomous Vehicle Club. We have LiDAR data and Camera data from our car. We also have object detection from YOLO set up, although the weights of the machine learning model need to be adjusted. Therefore currently, and with the support of the team plus any new members we can acquire, I am in the process of implementing sensor fusion and the driving agent in ROS for the autonomous car.
-
-![](gem_sim2.gif)
-
 ---
 
-### Autonomous Vehicle Systems
+### ROS Projects
 
-This is called the "IGVC Course Challenge". My teamate and I Implemented the ROS Nav-Stack in C++ with Dijkstra’s algorithm to navigate a robot autonomously through a course. In this case, the global costmap for the lanes is pre-generated and the local costmap generates in real-time to avoid course obstacles. Navigation goals were set in C++ which gave the robot a goal location.
+This project is called "LiDAR n' Xbox". Why is it named that? This project demonstrates lidar processing using the PCL library and generating bounding boxes based on that data. Also, I created a fun world in Gazebo and can drive my golf cart around that world testing my perception algorithm.
+
+**"Real Life View"**
+![](gazebo_bbox.png)
+
+**"What the Car Sees"**
+![](bbox_svc.png)
+
+This next project is called the "IGVC Course Challenge". My teamate and I Implemented the ROS Nav-Stack in C++ with Dijkstra’s algorithm to navigate a robot autonomously through a course. In this case, the global costmap for the lanes is pre-generated and the local costmap generates in real-time to avoid course obstacles. Navigation goals were set in C++ which gave the robot a goal location.
 
 ![](igvc_course.gif)
-
 
 Take a look at the "GPS waypoint Project". This project demonstrates an autonomous vehicle localization algorithm. This algorithm utilizes the latitude and longitude of 8 GPS waypoints. I converted those locations to UTM coordinates. Then, I localized the autonomous Audi R8 based on a reference UTM coordinate, the location of the waypoint, and the location of the car. With these locations I was able to create vectors and find the angle of the car relative to the next waypoint. 
 
@@ -48,6 +43,10 @@ Take a look at the "GPS waypoint Project". This project demonstrates an autonomo
 ---
 
 ### Autonomous Vehicle Club
+
+The GIF below shows a cool demonstration of the ROS simulation for the Autonomous Vehicle Club. You can see visuals for the LiDAR and Camera topics from our cool golf cart.
+
+![](gem_sim2.gif)
 
 We had an event where high school students and their parents came to hear about our club. For this, we had point cloud information from the cars LiDAR on display in real-time.
 
