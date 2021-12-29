@@ -4,13 +4,19 @@ layout: default
 
 # About Me
 
-My fondest memories of my time at Oakland University revolve around the people I met through classes, hockey, internships, and the Autonomous Vehicle Club. I developed relationships with professors beyond class topics that provided me great insight into potential careers. I stepped out of my comfort zone being the youngest by two to four years on OU’s hockey team. I was fortunate to have a physical outlet playing a sport I love while gaining friendships and confidence, all while improving my communication and teamwork skills. I found camaraderie being a member of the Autonomous Vehicle Club. I was able to collaborate with very intelligent and diverse teammates. I took a leadership role as Vice President after being a member for one year. In my free time, I continue to play hockey and tinker with ROS or other personal engineering projects.
+**Pratt Miller (2021 - Present)**
+
+At Pratt Miller, I wrote an obstacle detection algorithm for a mobile robotic platform with a LiDAR. I created and devoloped this algortihm using Unreal Engine, ROS, and C++. Currently, I'm working on a separate project implementing an Unreal Engine project on a different vehicle platform.
+
+**Oakland University (2016 - 2020)**
+
+My fondest memories of my time at Oakland University revolve around the people I met through classes, hockey, internships, and the Autonomous Vehicle Club. These experiences taught me the value of stepping outside my comfort zone. I developed relationships with professors beyond class topics that provided me great insight into potential careers. I was the youngest by two to four years on OU’s hockey team. I was fortunate to have a physical outlet playing a sport I love while gaining friendships and confidence. In the Autonomous Vehicle Club, I earned a role as Vice President and gained experience collaborating with an intelligent and diverse team. 
 
 ---
 
 ### Webpage Sections:
 
-Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
+CBS TV Interview, Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
 
 ### Social Media and Contact:
 LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
@@ -20,6 +26,20 @@ GitHub: <a href="https://github.com/Grudz">github.com/Grudz</a>
 Email:
  bengrudz88@gmail.com
  
+---
+
+## CBS TV Interview
+
+I was in a video that the Autonomous Vehicle Club made for ABET accreditation funding. Sometime after I graduated from OU, CBS reached out and said they liked my energy in that video and wanted to interview me for their next segment. Here is a clip from that interview: I was asked questions on the spot regarding the future of electrification in engineering.
+
+**See me in advertisment (8:36):** [CBS Article](https://detroit.cbslocal.com/2021/10/31/michigan-matters-education-in-the-spotlight/)
+
+
+**Youtube link to portion of my interview (1:06):**
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=lR8xv3oGJfU"><img src="cbs.PNG" alt="CBS Interview Clip"></a>
+</div>
+
 ---
 
 ## Robotic Software Projects
