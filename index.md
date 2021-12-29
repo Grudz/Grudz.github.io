@@ -10,7 +10,7 @@ My fondest memories of my time at Oakland University revolve around the people I
 
 ### Webpage Sections:
 
-ROS Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
+Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
 
 ### Social Media and Contact:
 LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
@@ -18,11 +18,11 @@ LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/ben
 GitHub: <a href="https://github.com/Grudz">github.com/Grudz</a>
 
 Email:
- bgrudzien@oakland.edu
+ bengrudz88@gmail.com
  
 ---
 
-## ROS Projects
+## Robotic Software Projects
 
 This project is called "LiDAR n' Xbox". Why is it named that? This project demonstrates lidar processing using the PCL library and generating bounding boxes based on that data. Also, I created a fun world in Gazebo and can drive my golf cart around that world with my Xbox controller testing my perception algorithm.
 
