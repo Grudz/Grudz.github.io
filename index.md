@@ -6,15 +6,13 @@ layout: default
 
 **Pratt Miller (2021 - Present)**
 
-At Pratt Miller, I wrote an obstacle detection algorithm for a mobile robotic platform with a LiDAR. I created and devoloped this algortihm using Unreal Engine, ROS, and C++. Currently, I'm working on a separate project implementing an Unreal Engine project on a different vehicle platform.
+At Pratt Miller, I wrote an obstacle detection algorithm for a mobile robotic platform with a LiDAR. I created and devoloped this algortihm using Unreal Engine, ROS, and C++. Currently, I'm working specifically on an Unreal Engine application. 
 
 **Oakland University (2016 - 2020)**
 
-My fondest memories of my time at Oakland University revolve around the people I met through classes, hockey, internships, and the Autonomous Vehicle Club. These experiences taught me the value of stepping outside my comfort zone. I developed relationships with professors beyond class topics that provided me great insight into potential careers. I was the youngest by two to four years on OU’s hockey team. I was fortunate to have a physical outlet playing a sport I love while gaining friendships and confidence. In the Autonomous Vehicle Club, I earned a role as Vice President and gained experience collaborating with an intelligent and diverse team. 
+Experiences I had at OU taught me the value of stepping outside my comfort zone. I developed relationships with professors beyond class topics that provided me great insight into potential careers. My freshman year, I was the youngest player on OU’s hockey team. I was fortunate to have a physical outlet playing a sport I love while gaining friendships and confidence. In the Autonomous Vehicle Club, I earned a role as Vice President and gained experience collaborating with an intelligent and diverse team. 
 
----
-
-### Webpage Sections:
+**Webpage Sections:**
 
 CBS TV Interview, Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
 
@@ -28,7 +26,7 @@ Email:
  
 ---
 
-## CBS TV Interview
+# CBS TV Interview
 
 I was in a video that the Autonomous Vehicle Club made for ABET accreditation funding. Sometime after I graduated from OU, CBS reached out and said they liked my energy in that video and wanted to interview me for their next segment. Here is a clip from that interview: I was asked questions on the spot regarding the future of electrification in engineering.
 
@@ -43,6 +41,14 @@ I was in a video that the Autonomous Vehicle Club made for ABET accreditation fu
 ---
 
 ## Robotic Software Projects
+
+I took a rosbag file of an autonomus golf cart, then used class examples to piece together a cool project. This demonstrates lidar and camera processing in ROS using OpenCV and the PCL library. 
+
+![](golfcart_bag.gif)
+
+The lidar returns intensity of points and that was used place bounding boxes on the sign posts. The monocular camera is used to track the line of tape on the ground. The camera image is processed to get 3D information and place PCL points on the tape. Then a line is projected to fit those points. Oh and also I added the iconic R3D3 (upgrade from R2D2) to this project :)
+
+![](golfcart_push.png)
 
 This project is called "LiDAR n' Xbox". Why is it named that? This project demonstrates lidar processing using the PCL library and generating bounding boxes based on that data. Also, I created a fun world in Gazebo and can drive my golf cart around that world with my Xbox controller testing my perception algorithm.
 
@@ -60,6 +66,10 @@ This next project is called the "IGVC Course Challenge". My teamate and I Implem
 Take a look at the "GPS waypoint Project". This project demonstrates an autonomous vehicle localization algorithm. This algorithm utilizes the latitude and longitude of 8 GPS waypoints. I converted those locations to UTM coordinates. Then, I localized the autonomous Audi R8 based on a reference UTM coordinate, the location of the waypoint, and the location of the car. With these locations I was able to create vectors and find the angle of the car relative to the next waypoint. 
 
 ![](audi_bot_gps_sim_2.gif)
+
+I'm currently working on this project. I plan to use an Xbox 360 Kinect to register how many goals I scored shooting pucks at a tarp in my basement. A screenshot of a rosbag file I took in rviz is shown below.
+
+![](hockey_shot.png)
 
 ---
 
