@@ -6,7 +6,7 @@ layout: default
 
 **Pratt Miller (2021 - Present)**
 
-At Pratt Miller, I wrote an obstacle detection algorithm for a mobile robotic platform with a LiDAR. I created and devoloped this algortihm using Unreal Engine, ROS, and C++. Currently, I'm working specifically on an Unreal Engine application. 
+I am an Unreal Engine simulation engineer with a deep background and professional experience in robotic autonomy 
 
 **Oakland University (2016 - 2020)**
 
@@ -14,7 +14,7 @@ Experiences I had at OU taught me the value of stepping outside my comfort zone.
 
 **Webpage Sections:**
 
-CBS TV Interview, Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
+Unreal Engine Projects, Cyber Tank 5000, CBS TV Interview, Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
 
 ### Social Media and Contact:
 LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
@@ -24,6 +24,31 @@ GitHub: <a href="https://github.com/Grudz">github.com/Grudz</a>
 Email:
  bengrudz88@gmail.com
  
+---
+# Unreal Engine Projects
+
+TODO
+
+---
+
+# Cyber Tank 5000
+
+About a year ago I decided I needed to learn ROS 2. I needed a robotic development platform to test autonomy algorithms and concepts
+
+So I bought a tank chassis and motors from GoBilda, purchased a collection of autonomy sensors with open source ROS 2 drivers, and sourced parts for the body from Amazon and my local hobby shop
+
+Key takeaways from this [video](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop) are:
+- Holistic robot development from hardware to software
+- Wireless live data viewing
+![](cyber_tank_ros2.png)
+- Autonomy sensor calibration
+- Photogrammetry utilization
+- Autonomous takeover for collision avoidance during teleoperation
+- Leader-follower autonomy powered by camera x LiDAR fusion
+![](cyber_tank_lf.png)
+
+**Link to video:** [Cyber Tank 5000](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop)
+
 ---
 
 # CBS TV Interview
