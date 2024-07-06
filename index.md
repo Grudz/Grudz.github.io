@@ -40,12 +40,12 @@ So I bought a tank chassis and motors from GoBilda, purchased a collection of au
 Key takeaways from this [video](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop) are:
 - Holistic robot development from hardware to software
 - Wireless live data viewing
-![](cyber_tank_ros2.png)
+![](cyber_tank_ros2.PNG)
 - Autonomy sensor calibration
 - Photogrammetry utilization
 - Autonomous takeover for collision avoidance during teleoperation
 - Leader-follower autonomy powered by camera x LiDAR fusion
-![](cyber_tank_lf.png)
+![](cyber_tank_lf.PNG)
 
 **Link to video:** [Cyber Tank 5000](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop)
 
