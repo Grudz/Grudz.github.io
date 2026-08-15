@@ -2,16 +2,39 @@
 layout: default
 ---
 
+**About Me:**
+
+I'm a Simulation Software Engineer merging Unreal Engine game development with realistic physics and engineering —  The projects below are the lighter, more personal side of that same curiosity: hands-on experiments in robotics, VR/AR, and electronics I've built outside of work, mostly just because they were fun.
+
 **Webpage Sections:**
 
-XR Shooter, Cyber Tank 5000, CBS TV Interview, Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
+[Cyber Tank 5000](#cyber-tank-5000), [XR Shooter](#xr-shooter), [CBS TV Interview](#cbs-tv-interview), [Robotic Software Projects](#robotic-software-projects), [Autonomous Vehicle Club](#autonomous-vehicle-club), [6502 Computer](#6502-computer), [Machine Learning](#machine-learning)
 
-### Social Media and Contact:
+### Contact:
 LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
 
 Email:
  bengrudz88@gmail.com
  
+
+# Cyber Tank 5000
+
+About a year ago I decided I needed to learn ROS 2. I needed a robotic development platform to test autonomy algorithms and concepts
+
+So I bought a tank chassis and motors from GoBilda, purchased a collection of autonomy sensors with open source ROS 2 drivers, and sourced parts for the body from Amazon and my local hobby shop
+
+Key takeaways from this [video](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop) are:
+- Holistic robot development from hardware to software
+- Wireless live data viewing
+![](cyber_tank_ros2.PNG)
+- Autonomy sensor calibration
+- Photogrammetry utilization
+- Autonomous takeover for collision avoidance during teleoperation
+- Leader-follower autonomy powered by camera x LiDAR fusion
+![](cyber_tank_lf.PNG)
+
+**Link to video:** [Cyber Tank 5000](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop)
+
 ---
 
 # XR Shooter
@@ -37,26 +60,6 @@ An AR demo bringing a DeLorean into the real world through an Oculus Rift — in
 <video autoplay loop muted playsinline width="600">
   <source src="/assests/Delorea_AR.mp4" type="video/mp4">
 </video>
-
----
-
-# Cyber Tank 5000
-
-About a year ago I decided I needed to learn ROS 2. I needed a robotic development platform to test autonomy algorithms and concepts
-
-So I bought a tank chassis and motors from GoBilda, purchased a collection of autonomy sensors with open source ROS 2 drivers, and sourced parts for the body from Amazon and my local hobby shop
-
-Key takeaways from this [video](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop) are:
-- Holistic robot development from hardware to software
-- Wireless live data viewing
-![](cyber_tank_ros2.PNG)
-- Autonomy sensor calibration
-- Photogrammetry utilization
-- Autonomous takeover for collision avoidance during teleoperation
-- Leader-follower autonomy powered by camera x LiDAR fusion
-![](cyber_tank_lf.PNG)
-
-**Link to video:** [Cyber Tank 5000](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop)
 
 ---
 
