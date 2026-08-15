@@ -8,7 +8,7 @@ I'm a Simulation Software Engineer merging Unreal Engine game development with r
 
 **Webpage Sections:**
 
-[Cyber Tank 5000](#cyber-tank-5000), [XR Shooter](#xr-shooter), [CBS TV Interview](#cbs-tv-interview), [Robotic Software Projects](#robotic-software-projects), [Autonomous Vehicle Club](#autonomous-vehicle-club), [6502 Computer](#6502-computer), [Machine Learning](#machine-learning)
+ [XR Shooter](#xr-shooter), [Cyber Tank 5000](#cyber-tank-5000), [CBS TV Interview](#cbs-tv-interview), [Robotic Software Projects](#robotic-software-projects), [Autonomous Vehicle Club](#autonomous-vehicle-club), [6502 Computer](#6502-computer), [Machine Learning](#machine-learning)
 
 ### Contact:
 LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
@@ -16,25 +16,6 @@ LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/ben
 Email:
  bengrudz88@gmail.com
  
-
-# Cyber Tank 5000
-
-About a year ago I decided I needed to learn ROS 2. I needed a robotic development platform to test autonomy algorithms and concepts
-
-So I bought a tank chassis and motors from GoBilda, purchased a collection of autonomy sensors with open source ROS 2 drivers, and sourced parts for the body from Amazon and my local hobby shop
-
-Key takeaways from this [video](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop) are:
-- Holistic robot development from hardware to software
-- Wireless live data viewing
-![](cyber_tank_ros2.PNG)
-- Autonomy sensor calibration
-- Photogrammetry utilization
-- Autonomous takeover for collision avoidance during teleoperation
-- Leader-follower autonomy powered by camera x LiDAR fusion
-![](cyber_tank_lf.PNG)
-
-**Link to video:** [Cyber Tank 5000](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop)
-
 ---
 
 # XR Shooter
@@ -60,6 +41,30 @@ An AR demo bringing a DeLorean into the real world through an Oculus Rift — in
 <video autoplay loop muted playsinline width="600">
   <source src="/assests/Delorea_AR.mp4" type="video/mp4">
 </video>
+
+---
+
+# Cyber Tank 5000
+
+About a year ago I decided I needed to learn ROS 2. I needed a robotic development platform to test autonomy algorithms and concepts
+
+So I bought a tank chassis and motors from GoBilda, purchased a collection of autonomy sensors with open source ROS 2 drivers, and sourced parts for the body from Amazon and my local hobby shop
+
+Key takeaways from this [video](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop) are:
+
+- Holistic robot development from hardware to software
+- Wireless live data viewing
+
+![](cyber_tank_ros2.PNG)
+
+- Autonomy sensor calibration
+- Photogrammetry utilization
+- Autonomous takeover for collision avoidance during teleoperation
+- Leader-follower autonomy powered by camera x LiDAR fusion
+
+![](cyber_tank_lf.PNG)
+
+**Link to video:** [Cyber Tank 5000](https://www.linkedin.com/posts/bengrudzien_hey-network-about-a-year-ago-i-decided-activity-7155364778406776834-RtUO?utm_source=share&utm_medium=member_desktop)
 
 ---
 
@@ -89,9 +94,11 @@ The lidar returns intensity of points and that was used to place bounding boxes 
 This project is called "LiDAR n' Xbox". Why is it named that? This project demonstrates lidar processing using the PCL library and generating bounding boxes based on that data. Also, I created a fun world in Gazebo and can drive my golf cart around that world with my Xbox controller testing my perception algorithm.
 
 **"What People See"** - Gazebo
+
 ![](gazebo_bbox.png)
 
 **"What the Car Sees"** - Rviz
+
 ![](rviz3.png)
 
 This next project is called the "IGVC Course Challenge". My teammate and I implemented the ROS Nav-Stack in C++ with Dijkstra's algorithm to navigate a robot autonomously through a course. In this case, the global costmap for the lanes is pre-generated and the local costmap generates in real-time to avoid course obstacles. Navigation goals were set in C++ which gave the robot a goal location.
