@@ -2,19 +2,9 @@
 layout: default
 ---
 
-# About Me
-
-**Pratt Miller (2021 - Present)**
-
-I am an Unreal Engine simulation engineer with a deep background and professional experience in robotic autonomy 
-
-**Oakland University (2016 - 2020)**
-
-Experiences I had at OU taught me the value of stepping outside my comfort zone. I developed relationships with professors beyond class topics that provided me great insight into potential careers. My freshman year, I was the youngest player on OU’s hockey team. I was fortunate to have a physical outlet playing a sport I love while gaining friendships and confidence. In the Autonomous Vehicle Club, I earned a role as Vice President and gained experience collaborating with an intelligent and diverse team. 
-
 **Webpage Sections:**
 
-Unreal Engine Projects, Cyber Tank 5000, CBS TV Interview, Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
+XR Shooter, Cyber Tank 5000, CBS TV Interview, Robotic Software Projects, Autonomous Vehicle Club, 6502 Computer, Machine Learning
 
 ### Social Media and Contact:
 LinkedIn: <a href="https://www.linkedin.com/in/bengrudzien/">linkedin.com/in/bengrudzien</a>
@@ -25,9 +15,30 @@ Email:
  bengrudz88@gmail.com
  
 ---
-# Unreal Engine Projects
 
-TODO
+# XR Shooter
+
+A couple of VR/AR experiments exploring shooting mechanics, navigation, and real-world object interaction using an Oculus Rift.
+
+**Remote-Controlled Robot vs. AI Aliens (VR/AR)**
+
+Built a VR/AR experience where a remote-controlled robot squares off against AI-driven alien enemies, blending real-world robot control with an in-headset combat layer.
+
+<video autoplay loop muted playsinline width="600">
+  <source src="/assets/Shooter_AR.mp4" type="video/mp4">
+</video>
+
+<video autoplay loop muted playsinline width="600">
+  <source src="/assets/Shooter_VR.mp4" type="video/mp4">
+</video>
+
+**DeLorean AR Demo**
+
+An AR demo bringing a DeLorean into the real world through an Oculus Rift — including a functioning door-open interaction, testing how physical-feeling AR interactions could work for future simulation and training use cases.
+
+<video autoplay loop muted playsinline width="600">
+  <source src="/assets/Delorea_AR.mp4" type="video/mp4">
+</video>
 
 ---
 
