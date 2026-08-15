@@ -2,11 +2,11 @@
 layout: default
 ---
 
-**About Me:**
+### About Me:
 
 I'm a Simulation Software Engineer merging Unreal Engine game development with realistic physics and engineering —  The projects below are the lighter, more personal side of that same curiosity: hands-on experiments in robotics, VR/AR, and electronics I've built outside of work, mostly just because they were fun.
 
-**Webpage Sections:**
+### Webpage Sections:
 
  [XR Shooter](#xr-shooter), [Cyber Tank 5000](#cyber-tank-5000), [CBS TV Interview](#cbs-tv-interview), [Robotic Software Projects](#robotic-software-projects), [Autonomous Vehicle Club](#autonomous-vehicle-club), [6502 Computer](#6502-computer), [Machine Learning](#machine-learning)
 
